@@ -22,7 +22,7 @@ export default class CourseItemDetails extends Component {
         description: data.course_details.description,
         id: data.course_details.id,
         name: data.course_details.name,
-        imageUrl: data.course_details.imageUrl,
+        imageUrl: data.course_details.image_url,
       }
       console.log(data)
       console.log(updatedData)
