@@ -60,7 +60,7 @@ export default class CourseItemDetails extends Component {
           {isSuccess && (
             <div className="itemDetails">
               <div>
-                <img src={imageUrl} alt="name" />
+                <img src={imageUrl} alt={name} />
               </div>
               <h1>{name}</h1>
               <p>{description}</p>
